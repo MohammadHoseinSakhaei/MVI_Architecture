@@ -6,5 +6,4 @@ interface Mapper<Entity,DomainModel> {
 
     fun mapToEntity(domainModel: DomainModel) : Entity
 
-
 }
